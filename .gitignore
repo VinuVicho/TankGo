@@ -13,3 +13,27 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# ChatGPT 
+# Godot-specific ignore
+*.import
+*.imported
+*.tscn
+*.escn
+*.sctn
+*.scn
+*.sce
+*.res
+*.bak
+*.import
+Thumbs.db
+.DS_Store
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
