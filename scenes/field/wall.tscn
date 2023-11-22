@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://n5cpjf6nqql8"]
+
+[ext_resource type="Texture2D" uid="uid://h7ip2tagp3pp" path="res://textures/field/wall/BlackWall.png" id="1_b6hwt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rofgb"]
+size = Vector2(420, 44)
+
+[node name="Wall" type="StaticBody2D" groups=["Wall"]]
+metadata/_edit_vertical_guides_ = [-210.0, 210.0]
+metadata/_edit_horizontal_guides_ = [-22.0, 22.0]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.365, 0.067)
+texture = ExtResource("1_b6hwt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_rofgb")
