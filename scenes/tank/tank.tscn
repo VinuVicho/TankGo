@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://c7ci2n50gys7t" path="res://textures/tank/basic/body/destroyed/TankBodyDestroyed2.png" id="3_uxfqr"]
 [ext_resource type="Texture2D" uid="uid://ouufvqqm3cvu" path="res://textures/tank/basic/weapon/destroyed/TankWeaponDestroyed2.png" id="4_8cjwp"]
 
-[node name="Tank" type="CharacterBody2D"]
+[node name="Tank" type="CharacterBody2D" groups=["Tank"]]
 metadata/_edit_horizontal_guides_ = [-171.0, 171.0, -228.0, -128.0]
 metadata/_edit_vertical_guides_ = [129.0, -129.0, -28.0, 25.0, -123.0, 123.0]
 
